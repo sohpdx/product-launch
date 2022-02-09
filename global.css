@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  /* CSS HEX */
+  --xanadu: #808880ff;
+  --platinum: #ebe9e5ff;
+  --dark-jungle-green: #202521ff;
+  --cafe-noir: #573e22ff;
+  --coyote-brown: #7d5b2eff;
+  --deep-space-sparkle: #526967ff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--xanadu);
+}
+
+#splash-image {
+  width: 100vw;
+}
+
+#info {
+  color: var(--dark-jungle-green);
+  background-color: var(--platinum);
+  padding: 16px;
+}
+
+#email-form {
+  margin: 16px 0;
+}
