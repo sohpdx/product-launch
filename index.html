@@ -12,11 +12,29 @@
   <section id="info">
     <h1>Road Trip Adventures</h1>
     <p>Find your next itinerary here</p>
+    <form id="contact-form">
+      <div class="input-wrapper">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <button>Submit</button>
+    </form>
   </section>
-  <form id="email-form">
-    <label for="email">Email me itinerary ideas</label>
-    <input name="email" id="email" type="email" placeholder="Email"/>
-    <button type="submit">Submit</button>
-  </form>
+  <div id="thank-you" class="hide">Thank you for submitting your email. We will get back to you soon!</div>
+  <script src="app.js" type="module"></script>
+  <section class="cats">
+    <div class="cat-click">
+      <img class="cat" id="cat-1" src="http://placekitten.com/200/300" alt="" srcset="">
+      <audio id="audio-1" src="./assets/mixkit-angry-wild-cat-roar-89.wav"></audio>
+    </div>
+    <div class="cat-click">
+      <img class="cat" id="cat-2" src="http://placekitten.com/300/400" alt="" srcset="">
+      <audio id="audio-2" src="./assets/mixkit-domestic-cat-hungry-meow-45.wav"></audio>
+    </div>
+    <div class="cat-click">
+      <img class="cat" id="cat-3" src="http://placekitten.com/400/200" alt="" srcset="">
+      <audio id="audio-3" src="./assets/mixkit-wild-lion-animal-roar-6.wav"></audio>
+    </div>
+  </section>
 </body>
 </html>

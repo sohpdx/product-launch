@@ -25,6 +25,38 @@ body {
   padding: 16px;
 }
 
-#email-form {
+#contact-form {
   margin: 16px 0;
+}
+
+.hide {
+  display: none;
+}
+
+.cats {
+  display: flex;
+}
+
+.cat {
+  max-width: 200px;
+}
+
+@media (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "col1 col2";
+  }
+  #splash-image {
+    grid-area: col2;
+  }
+  #info {
+    grid-area: col1;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 2rem;
+  }
 }
